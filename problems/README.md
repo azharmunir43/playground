@@ -1,3 +1,3 @@
 # Practice Problems
-This is the repository of practice problems that I implement ocassionaly.
-Mainly, I write to brush up my algorithms and  solution design techniques.
+This is the section for practice problems that I implement ocassionaly.
+Mainly, I use this place to brush up my solution design techniques and algorithms.
