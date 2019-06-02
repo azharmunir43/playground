@@ -1,2 +1,2 @@
 # Practice Problems
-A repository of statistical techniques.
+A section for learning stats.
