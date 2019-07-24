@@ -44,6 +44,7 @@ with_consecutive_4 = list(filter(
     lambda x: (str(x)[0] == str(x)[1] == str(x)[2] == str(x)[3]) or (str(x)[4] == str(x)[3] == str(x)[2] == str(x)[1]),
     all_int_combs))
 print(with_consecutive_4)
+
 print('5 Digit Integer Palindromes ' + str(len(palindromes)))
 print('5 Digit Integer Palindromes - Even ' + str(len(even_palindromes)))
 
