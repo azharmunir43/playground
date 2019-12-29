@@ -1,6 +1,3 @@
 .idea/
 .gitignore
-probability/notebook/.ipynb_checkpoints/
-statistics/notebook/.ipynb_checkpoints/
-maths/notebook/.ipynb_checkpoints/
-problems/notebook/.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
