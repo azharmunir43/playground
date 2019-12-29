@@ -9,8 +9,7 @@
 #
 # import re
 # input_string = 'AAAABBBCCDAA'
-#
-#
+
 # if bool(re.search(r'\d', input_string)):
 #     pairs = [input_string[i:i+2] for i in range(0, len(input_string), 2)]
 #     print([int(x[0])*x[1] for x in pairs])

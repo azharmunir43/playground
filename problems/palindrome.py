@@ -41,9 +41,13 @@ contain_7 = list(filter(lambda x: '7' in str(x), palindromes))
 contain_8 = list(filter(lambda x: '8' in str(x), palindromes))
 contain_7_and_8 = list(filter(lambda x: '8' in str(x) and '7' in str(x), palindromes))
 with_consecutive_4 = list(filter(
-    lambda x: (str(x)[0] == str(x)[1] == str(x)[2] == str(x)[3]) or (str(x)[4] == str(x)[3] == str(x)[2] == str(x)[1]),
-    all_int_combs))
+    lambda x: (str(x)[0] == str(x)[1] == str(x)[2] == str(x)[3]) or (str(x)[4] == str(x)[3] == str(x)[2] == str(x)[1]), all_int_combs))
+
+
+ternary_strings = list(filter( lambda x: , all_int_combs))
 print(with_consecutive_4)
+
+
 print('5 Digit Integer Palindromes ' + str(len(palindromes)))
 print('5 Digit Integer Palindromes - Even ' + str(len(even_palindromes)))
 
